@@ -1,0 +1,21 @@
+
+
+:root{
+    --button-bg-color:darkred;
+    --button-color:white;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: var(--button-bg-color);
+    color:var(--button-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inc{
+    margin-left:60%
+}
